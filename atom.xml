@@ -6,7 +6,7 @@
   <link href="https://chydredg.github.io/atom.xml" rel="self"/>
   
   <link href="https://chydredg.github.io/"/>
-  <updated>2022-10-15T05:52:46.123Z</updated>
+  <updated>2022-10-15T08:24:26.656Z</updated>
   <id>https://chydredg.github.io/</id>
   
   <author>
@@ -15,6 +15,52 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Markdown语法学习</title>
+    <link href="https://chydredg.github.io/2022/10/15/Markdown%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0/"/>
+    <id>https://chydredg.github.io/2022/10/15/Markdown%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0/</id>
+    <published>2022-10-15T08:24:26.000Z</published>
+    <updated>2022-10-15T08:24:26.656Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>CSS布局技巧</title>
+    <link href="https://chydredg.github.io/2022/10/15/CSS%E5%B8%83%E5%B1%80%E6%8A%80%E5%B7%A7/"/>
+    <id>https://chydredg.github.io/2022/10/15/CSS%E5%B8%83%E5%B1%80%E6%8A%80%E5%B7%A7/</id>
+    <published>2022-10-15T08:18:55.000Z</published>
+    <updated>2022-10-15T08:18:55.684Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>HTML+CSS学习笔记</title>
+    <link href="https://chydredg.github.io/2022/10/15/HTML-CSS%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <id>https://chydredg.github.io/2022/10/15/HTML-CSS%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</id>
+    <published>2022-10-15T08:12:22.000Z</published>
+    <updated>2022-10-15T09:01:47.358Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="HTML标签"><a href="#HTML标签" class="headerlink" title="HTML标签"></a>HTML标签</h2><h3 id="段落和换行标签"><a href="#段落和换行标签" class="headerlink" title="段落和换行标签"></a>段落和换行标签</h3><ul><li><p>段落标签<p></p><p>双标签，属于块级元素，可以设置宽高。</p></li><li><p>换行标签</br></p><p>单标签，用于换行。</p></li></ul><h3 id="文本格式化标签"><a href="#文本格式化标签" class="headerlink" title="文本格式化标签"></a>文本格式化标签</h3><ul><li><p>加粗<strong> <b></p></li><li><p>倾斜<em> <i></p></li><li><p>删除线<del> <s></p></li><li><p>下划线<ins> <u></p><p>以上标签均为单标签！！！！</p></li></ul><h3 id="图像标签"><a href="#图像标签" class="headerlink" title="图像标签"></a>图像标签<img></h3><ul><li><p>主要属性：</p><p>1.src:”图片路径” :必须属性，可以是相对路径，也可以是超链接</p><p>2.alt:”文本” :替换文本，图像不能显示时显示文字</p><p>3.title:”文本” :提示文本，鼠标放在图像上时出现的文字</p></li><li><p>注意：</p><p>1.img图像标签为单标签</p><p>2.img标签属于行内元素，但是可以设置宽高！！！！</p></li></ul><h3 id="相对路径介绍"><a href="#相对路径介绍" class="headerlink" title="相对路径介绍"></a>相对路径介绍</h3><ul><li><p>以文件本身为参考，目标文件的路径</p><p>1.同一级路径：直接写目标文件名</p><p>2.下一级路径：&#x2F;</p><p>2.上一级路径：..&#x2F;</p></li></ul><h3 id="超链接标签"><a href="#超链接标签" class="headerlink" title="超链接标签"></a>超链接标签</h3><h3 id="特殊字符输入"><a href="#特殊字符输入" class="headerlink" title="特殊字符输入"></a>特殊字符输入</h3><ul><li><p>有时我们文本中会出现&lt;、&gt;等字符，它们与HTML标签框冲突，需要用特殊表达方式代替：</p><p><img src="C:\Users\18680\Pictures\HTML\1.jpg" alt="1"></p><p>只有空格、小于号、大于号三个用的比较多，重点记！！！！</p></li></ul><h3 id="表格标签"><a href="#表格标签" class="headerlink" title="表格标签"></a>表格标签</h3><ul><li><p>基本语法</p><p><img src="C:\Users\18680\Pictures\HTML\2.jpg" alt="2"> </p></li><li><p>属性</p><p><img src="C:\Users\18680\Pictures\HTML\3.jpg" alt="3"></p></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;HTML标签&quot;&gt;&lt;a href=&quot;#HTML标签&quot; class=&quot;headerlink&quot; title=&quot;HTML标签&quot;&gt;&lt;/a&gt;HTML标签&lt;/h2&gt;&lt;h3 id=&quot;段落和换行标签&quot;&gt;&lt;a href=&quot;#段落和换行标签&quot; class=&quot;headerlink&quot; ti</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
