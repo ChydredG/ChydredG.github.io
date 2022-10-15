@@ -500,6 +500,8 @@
 </li>
 <li><p>type属性值：</p>
 <img src="/2022/10/15/HTML-CSS%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/8.jpg" class title="input标签type属性">  
+
+<p><strong>单选按钮和复选框必须要有一样的name属性</strong></p>
 </li>
 <li><p>其他属性：</p>
 <img src="/2022/10/15/HTML-CSS%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/9.jpg" class title="input标签其他属性"></li>
@@ -693,9 +695,9 @@
 </li>
 <li><p>块级元素使用margin实现水平居中，行内和行内块则是给父盒子添加 <code>text-align = center</code> 即可实现水平居中</p>
 </li>
-<li><p>外边距合并：<strong>给上下两个盒子分别添加下边距和上边距时，实际边距是这两个中的最大值，而不是叠加</strong></p>
+<li><p>上下外边距合并：<strong>给上下两个盒子分别添加下边距和上边距时，实际边距是这两个中的最大值，而不是叠加</strong></p>
 </li>
-<li><p>外边距塌陷：<strong>当父盒子有上外边距时，子盒子设置较小的上外边距会无效</strong>，解决方案</p>
+<li><p>上外边距塌陷：<strong>当父盒子有上外边距时，子盒子设置较小的上外边距会无效</strong>，解决方案</p>
 <p>1.可以为父元素定义上边框</p>
 <p>2.可以为父元素定义上内边距</p>
 <p>3.可以为父元素添加overflow:hidden</p>
@@ -733,25 +735,31 @@
 </li>
 </ul>
 <h3 id="4-定位"><a href="#4-定位" class="headerlink" title="4.定位"></a>4.定位</h3><ul>
-<li><p><strong>相对定位</strong> <code>position: relative;</code> 特点：</p>
+<li><p><strong>相对定位</strong> <code>position: relative;</code> </p>
+<p>特点：</p>
 <p>1.它是相对于自己原来的位置来移动的(<strong>移动位置的时候参照点是自己原来的位置</strong>)</p>
 <p>2.原来<strong>在标准流的位置继续占有</strong>，后面的盒子仍然以标准流的方式对特它。(<strong>不脱标，继续保留原来位置</strong>)因此，相对定位并没有脱标。它最典型的应用是给绝对定位当爹的</p>
 </li>
-<li><p><strong>绝对定位</strong> <code>position: absolute;</code> 特点：</p>
+<li><p><strong>绝对定位</strong> <code>position: absolute;</code> </p>
+<p>特点：</p>
 <p>1.如果<strong>没有祖先元素</strong>或者<strong>祖先元素没有定位</strong>，则以浏览器为准定位( Document文档)</p>
 <p>2.如果祖先元素有定位(相对、绝对、固定定位），则以最近一级的有定位祖先元素为参考点移动位置</p>
 <p>3.绝对定位<strong>不再占有原先的位置</strong>(脱标)</p>
 </li>
-<li><p><strong>固定定位</strong> <code>position: fixed;</code> 特点：</p>
+<li><p><strong>固定定位</strong> <code>position: fixed;</code> </p>
+<p>特点：</p>
 <p>1.以浏览器的可视窗口为参照点移动元素。跟父元素没有任何关系，不随滚动条滚动。</p>
 <p>2.固定定位<strong>不在占有原先的位置</strong>，也是脱标的，可以看做是一种特殊的绝对定位。</p>
 <p><strong>固定定位小技巧：</strong></p>
 <ul>
-<li>让固定定位的盒子left: 50%.走到浏览器可视区（也可以看做版心）的一半位置</li>
-<li>让固定定位的盒子margin-left:版心宽度的一半距离。多走版心宽度的一半位置</li>
+<li><p>让固定定位的盒子left: 50%.走到浏览器可视区（也可以看做版心）的一半位置</p>
+</li>
+<li><p>让固定定位的盒子margin-left:版心宽度的一半距离。多走版心宽度的一半位置</p>
+</li>
 </ul>
 </li>
-<li><p><strong>粘性定位</strong> <code>position: sticky;</code> </p>
+<li><p><strong>粘性定位</strong> <code>position: sticky;</code></p>
+<p> 特点：</p>
 <p>1.跟随浏览器移动，以浏览器的可视窗口为参照点移动元素(固定定位特点)</p>
 <p>2.粘性定位<strong>占有原先的位置</strong>(相对定位特点)</p>
 <p>3.<strong>必须添加</strong>top . left、right、bottom其中一个才有效</p>
