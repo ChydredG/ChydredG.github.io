@@ -4,8 +4,17 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="标签, ChydredG&#39;s Blog">
-    <meta name="description" content="ChydredG&#39;s Blog">
+    <meta name="keywords" content="HTML5与CSS3的新增标签与特性, ChydredG&#39;s Blog">
+    <meta name="description" content="一、HTML5新标签1.新增语义化标签
+&amp;lt;header&amp;gt;：头部标签
+
+&amp;lt;nav&amp;gt;：导航标签
+
+&amp;lt;aside&amp;gt;：侧边栏标签
+
+&amp;lt;article&amp;gt;：内容标签
+
+&amp;lt;section&amp;gt;：定义">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -17,7 +26,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>标签 | ChydredG&#39;s Blog</title>
+    <title>HTML5与CSS3的新增标签与特性 | ChydredG&#39;s Blog</title>
     <link rel="icon" type="image/png" href="/favicon.png">
     
 
@@ -309,74 +318,507 @@
 
 </header>
 
-    <div class="bg-cover pd-header about-cover">
-    <div class="container">
-    <div class="row">
-    <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
-        <div class="brand">
-            <div class="title center-align">
-                
-                茕茕孑立
-                
-            </div>
+    
 
-            <div class="description center-align">
-                
-                <span id="subtitle"></span>
-                <script src="/libs/typed/typed.js"></script>
-                <script>
-                    var typed = new Typed("#subtitle", {
-                        strings: [ 
-                            
-                                "从来没有真正的绝境, 只有心灵的迷途",
-                            
-                                "Never really desperate, only the lost of the soul",
-                            
-                        ],
-                        startDelay: 300,
-                        typeSpeed: 100,
-                        loop: true,
-                        backSpeed: 50,
-                        showCursor: true
-                    });
-                </script>
-                
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/17.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">HTML5与CSS3的新增标签与特性</h1>
+                </div>
             </div>
         </div>
     </div>
 </div>
 
 
-<script>
-    // 每天切换 banner 图.  Switch banner image every day.
-    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
-    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
-</script>
 
 
+<main class="post-container content">
+
+    
+    <div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                          <div class="article-tag">
+                            <span class="chip bg-color">无标签</span>
+                          </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2022-10-18
+                </div>
+                
+
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
+                    2022-10-18
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                    742
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                    3 分
+                </div>
+                
+
+                
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                        <i class="far fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv"></span>
+                    </div>
+				
+            </div>
+        </div>
+        <hr class="clearfix">
+
+        
+
+        
+
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <h2 id="一、HTML5新标签"><a href="#一、HTML5新标签" class="headerlink" title="一、HTML5新标签"></a>一、HTML5新标签</h2><h3 id="1-新增语义化标签"><a href="#1-新增语义化标签" class="headerlink" title="1.新增语义化标签"></a>1.新增语义化标签</h3><ul>
+<li><p><code>&lt;header&gt;</code>：头部标签</p>
+</li>
+<li><p><code>&lt;nav&gt;</code>：导航标签</p>
+</li>
+<li><p><code>&lt;aside&gt;</code>：侧边栏标签</p>
+</li>
+<li><p><code>&lt;article&gt;</code>：内容标签</p>
+</li>
+<li><p><code>&lt;section&gt;</code>：定义文档的某个区域</p>
+</li>
+<li><p><code>&lt;main&gt;</code>：主体标签</p>
+</li>
+<li><p><code>&lt;footer&gt;</code>：尾部标签</p>
+<p>以上标签均为双标签，本质上与<code>&lt;div&gt;</code>相同，只是改了名字提高可读性</p>
+</li>
+</ul>
+<h3 id="2-新增视频标签-lt-video-gt"><a href="#2-新增视频标签-lt-video-gt" class="headerlink" title="2.新增视频标签 &lt;video&gt;"></a>2.新增视频标签 <code>&lt;video&gt;</code></h3><ul>
+<li><p>用法：</p>
+<p><code>&lt;video controls=&quot;controls&quot; width=&quot;300&quot;&gt;</code></p>
+<p>​    <code>&lt;source src=&quot;move.ogg&quot; type=&quot;video/ogg&quot; &gt;</code></p>
+<p>​    <code>&lt;source src=&quot;move.mp4&quot; type=&quot;video/mp4&quot; &gt;</code></p>
+<p>​    <code>您的浏览器暂不支持&lt;video&gt;标签</code></p>
+<p><code>&lt;/video &gt;</code></p>
+</li>
+<li><p>具体属性：</p>
+<img src="/2022/10/18/HTML5%E4%B8%8ECSS3%E7%9A%84%E6%96%B0%E5%A2%9E%E6%A0%87%E7%AD%BE%E4%B8%8E%E7%89%B9%E6%80%A7/1.png" class title="视频标签常用属性"></li>
+</ul>
+<h3 id="3-新增音频标签-lt-audio-gt"><a href="#3-新增音频标签-lt-audio-gt" class="headerlink" title="3.新增音频标签 &lt;audio&gt;"></a>3.新增音频标签 <code>&lt;audio&gt;</code></h3><ul>
+<li><p><code>&lt;audio controls=&quot;controls&quot; &gt;</code></p>
+<p>​    <code>&lt;source src=&quot;happy.ogg&quot; type=&quot;audio/ogg&quot; &gt;</code></p>
+<p>​    <code>&lt;source src=&quot;happy.mp3&quot; type=&quot;audio/mp3&quot; &gt;</code></p>
+<p>​    <code>您的浏览器暂不支持&lt;audio&gt;标签</code></p>
+<p><code>&lt;/audio &gt;</code></p>
+</li>
+<li><p>具体属性：</p>
+<img src="/2022/10/18/HTML5%E4%B8%8ECSS3%E7%9A%84%E6%96%B0%E5%A2%9E%E6%A0%87%E7%AD%BE%E4%B8%8E%E7%89%B9%E6%80%A7/2.png" class title="音频标签常用属性"></li>
+</ul>
+<h3 id="4-新增input表单"><a href="#4-新增input表单" class="headerlink" title="4.新增input表单"></a>4.新增input表单</h3><ul>
+<li><p>input标签新增type：</p>
+<img src="/2022/10/18/HTML5%E4%B8%8ECSS3%E7%9A%84%E6%96%B0%E5%A2%9E%E6%A0%87%E7%AD%BE%E4%B8%8E%E7%89%B9%E6%80%A7/3.png" class title="input标签新增类型"></li>
+</ul>
+<h3 id="5-新增表单属性"><a href="#5-新增表单属性" class="headerlink" title="5.新增表单属性"></a>5.新增表单属性</h3><ul>
+<li><p>input标签新增属性：</p>
+<img src="/2022/10/18/HTML5%E4%B8%8ECSS3%E7%9A%84%E6%96%B0%E5%A2%9E%E6%A0%87%E7%AD%BE%E4%B8%8E%E7%89%B9%E6%80%A7/4.png" class title="input标签新增属性"></li>
+</ul>
+<h2 id="二、CSS3新增选择器"><a href="#二、CSS3新增选择器" class="headerlink" title="二、CSS3新增选择器"></a>二、CSS3新增选择器</h2><h3 id="1-属性选择器"><a href="#1-属性选择器" class="headerlink" title="1.属性选择器"></a>1.属性选择器</h3><ul>
+<li><code>E[att]</code>  选择具有att属性的E标签元素</li>
+<li><code>E[att=&quot;val&quot;]</code>  选择具有att属性且属性值等于val的E标签元素</li>
+<li><code>E[att^=&quot;val&quot;]</code>  匹配具有att属性且值以val开头的E标签元素</li>
+<li><code>E[att$=&quot;val&quot;]</code>  匹配具有att属性且值以val结尾的E标签元素</li>
+<li><code>E[att*=&quot;val&quot;]</code>  匹配具有att属性且值中含有val的E标签元素</li>
+<li><strong>属性选择器权重为10</strong></li>
+</ul>
+<h3 id="2-结构伪类选择器"><a href="#2-结构伪类选择器" class="headerlink" title="2.结构伪类选择器"></a>2.结构伪类选择器</h3><ul>
+<li><p><code>E:first-child</code>  匹配父元素中的第一个子元素E</p>
+</li>
+<li><p><code>E:first-child</code>  匹配父元素中的第一个子元素E</p>
+</li>
+<li><p><code>E:last-child</code>  匹配父元素中最后一个E元素</p>
+</li>
+<li><p><code>E:nth-child(n)</code>  匹配父元素中的第n个子元素E</p>
+<p>这个n可以是<strong>数字</strong>，也可以是<strong>odd（奇数）、even（偶数）</strong>，还可以是<strong>表达式</strong>（2n+1，<strong>n是从0开始递增的</strong>，是n本身就代表选择了所有，还可以是**-n+5**，代表前五个）</p>
+</li>
+<li><p><code>E:first-of-type</code>  指定类型E的第一个</p>
+</li>
+<li><p><code>E:last-of-type</code>  指定类型E的最后一个</p>
+</li>
+<li><p><code>E:nth-of-type(n)</code>  指定类型E的第n个</p>
+</li>
+<li><p><strong>注意！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！</strong></p>
+<p>E:nth-child(n)会把所有的子盒子都排列序号，执行时先看序号，再看前面的E</p>
+<p>E:nth-of-type(n)则不同，它是先看前面的E，再对E排列序号，选出n所对应的</p>
+</li>
+</ul>
+<h3 id="3-伪元素选择器"><a href="#3-伪元素选择器" class="headerlink" title="3.伪元素选择器"></a>3.伪元素选择器</h3><ul>
+<li><p><code>E::before</code>  </p>
+</li>
+<li><p><code>E::after</code>  </p>
+</li>
+<li><p>注意！！！！</p>
+<p>1.before在E左侧、after在E右侧，创建一个元素，但是属于行内元素</p>
+<p>2.新创建的这个元素在文档树中是找不到的，所以我们称为伪元素</p>
+<p>3.语法: <code>element::before&#123;&#125;</code></p>
+<p>4.before和after 必须有content属性</p>
+<p>5.before在父元素内容的前面创建元素，after在父元素内容的后面插入元素</p>
+<p>6.伪元素选择器和标签选择器一样，权重为1</p>
+</li>
+</ul>
+
+                
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        文章作者:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/about" rel="external nofollow noreferrer">Ly</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        文章链接:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="https://chydredg.github.io/2022/10/18/HTML5%E4%B8%8ECSS3%E7%9A%84%E6%96%B0%E5%A2%9E%E6%A0%87%E7%AD%BE%E4%B8%8E%E7%89%B9%E6%80%A7/">https://chydredg.github.io/2022/10/18/HTML5%E4%B8%8ECSS3%E7%9A%84%E6%96%B0%E5%A2%9E%E6%A0%87%E7%AD%BE%E4%B8%8E%E7%89%B9%E6%80%A7/</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        版权声明:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    本博客所有文章除特別声明外，均采用
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    许可协议。转载请注明来源
+                    <a href="/about" target="_blank">Ly</a>
+                    !
+                </span>
+            </div>
+        
     </div>
-</div>
 
-<main class="content">
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            <span class="chip bg-color">无标签</span>
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
 
     
 
-<div id="tags" class="container chip-container">
-    <div class="card">
-        <div class="card-content">
-            <div class="tag-title center-align">
-                <i class="fas fa-tags"></i>&nbsp;&nbsp;文章标签
+</div>
+
+                </div>
             </div>
-            <div class="tag-chips">
-                
+            
+                <div id="reward">
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close modal-close"><i class="fas fa-times"></i></a>
+            <h4 class="reward-title">你的赏识是我前进的动力</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs row">
+                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
+                    </ul>
+                    <div id="alipay">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                    <div id="wechat">
+                        <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
+
+<script>
+    $(function () {
+        $('.tabs').tabs();
+    });
+</script>
+
+            
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+            <div class="card">
+                <a href="/2022/10/18/H5C3%E9%9B%B6%E7%A2%8E%E7%9F%A5%E8%AF%86%E7%82%B9/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="H5C3零碎知识点">
+                        
+                        <span class="card-title">H5C3零碎知识点</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2022-10-18
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-user fa-fw"></i>
+                            Ly
+                            
+                        </span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2022/10/15/CSS%E5%B8%83%E5%B1%80%E6%8A%80%E5%B7%A7/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="CSS布局技巧">
+                        
+                        <span class="card-title">CSS布局技巧</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-10-15
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-user fa-fw"></i>
+                            Ly
+                            
+                        </span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget card" style="background-color: white;">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('0'),
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
 
     
 
 </main>
+
+
 
 
     <footer class="page-footer bg-color">
